@@ -1,2 +1,3 @@
-# owning-a-server
-How I managed and secured game server with over 200 thousand registered accounts for over than 2.5 years
+# Build, configure, manage and secure your physical or virtual server
+
+## In this project I will grant information about how I only by myself built, configured, managed and secured my physical server
