@@ -43,3 +43,13 @@ AMD CPUs with high clock speed:<br>
 - (max players * 100) + ((plugins + scripts) * 50) + (world size in GB * 50) = RAM in MBs<br>
 
 You should always round up. If your are looking for a server with 20 players, 50 scripts and a world size of 30GB you will do: (20 * 100) + (50 * 50) + (30 * 50) = 6000MB, 6000MB = ~6GB of RAM so you should buy 8GB RAM if you are looking to be safe.
+
+3. Last but not least is our memory disk:
+
+- When you are looking for your Minecraft server memory disk you should always look for a fast write and read disk. If you can afford M.2 disk you should look for one but any other SATA SSD disk should work fine. Always check the storage size and don't let your files override more than 75% of the size because it can cause lags and falsly saved files.
+
+4. In addition:
+
+- You can buy yourself a power supply that consume little electricity and a good case that circulatates for better temperatures.
+
+- The cost of running your server 24/7 depends from your power supply, usage and electricity costs in your area. On avarage my server cost me about $5 per month.
