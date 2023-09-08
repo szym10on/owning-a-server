@@ -12,7 +12,7 @@ xyz
 
 ## Building a server PC and searching for best hardware
 
-**Selecting the right components for a Minecraft server PC is crucial for delivering a smooth and enjoyable gaming experience to players. Here's why it's essential to pick the best parts and prioritize a CPU with high GHz and ample RAM**
+`**Selecting the right components for a Minecraft server PC is crucial for delivering a smooth and enjoyable gaming experience to players. Here's why it's essential to pick the best parts and prioritize a CPU with high GHz and ample RAM**`
 
 1. The most important part of our build will be our CPU:
 
