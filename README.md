@@ -14,7 +14,7 @@ xyz
 
 **Selecting the right components for a Minecraft server PC is crucial for delivering a smooth and enjoyable gaming experience to players. Here's why it's essential to pick the best parts and prioritize a CPU with high GHz and ample RAM**
 
-*The most important part of our build will be our CPU:
+* The most important part of our build will be our CPU:
 
 1. Minecraft servers require real-time processing power to handle player interactions, world generation, various game mechanics, plugins and scripts. A powerful CPU with a high clock speed (GHz) ensures that the server can respond quickly to player actions, minimizing lag and delays. Before buying one from the internet I was reserching a lot of the internet. One of the best things you should look for are older CPUs with high clock speed that needs a cheap motherboard if you have low budget. But if you have unlimited money to spend on your server PC you can get one of the newest AMD Ryzen CPU and that should work perfectly.
 
