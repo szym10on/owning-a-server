@@ -280,4 +280,16 @@ sudo passwd "username" (change username)
 
 ## Managing your server (my own experience)
 
-1. 
+**Things that will help you manage your server correctly**
+
+1. Having a good staff members.
+
+- Create your own plan for managing the server. Use people that know what to do and want to help you.
+
+- Make special roles for administration members. As for me there were 6 roles. Starting with Test Chat Moderator up to Owner.
+
+![4](https://github.com/szym10on/owning-a-server/assets/123908381/81fedbb8-a6e1-4d1e-a2a7-031506860470)<br>
+You can use other names for your roles.
+
+- My team consist of 15 people that know each other and know what to do.
+
