@@ -53,3 +53,11 @@ You should always round up. If your are looking for a server with 20 players, 50
 - You can buy yourself a power supply that consume little electricity and a good case that circulatates for better temperatures.
 
 - The cost of running your server 24/7 depends on your power supply, usage and electricity costs in your area. On average my server cost me about $5 per month.
+
+---
+
+## Setting up your server for public network
+
+**This is probably the hardest part of building your network. In most cases you have to pay for a fixed IP address. To do that you have to contant your ISP (Internet Service Provider) and ask for static public IP address for your network. In my case it was about $5/month of cost for that type of IP address**
+
+1. 
