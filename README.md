@@ -66,7 +66,7 @@ You should always round up. If your are looking for a server with 20 players, 50
 
 2. Important commands for your server and how to use Ubuntu:
 
-➤ File System Commands:
+➤ File System Commands:<br>
 ls: List files and directories in the current directory.<br>
 cd: Change the current directory.<br>
 pwd: Print the current working directory.<br>
