@@ -268,7 +268,7 @@ sudo passwd "username" (change username)
 
 - You can buy your domain name on GoDaddy, Namecheap or many other websites with domains.
 
-2. Configurate your domain panel on the website where you bought your domain.
+2. Configurate your domain panel on the website where you bought your domain:
 
 - Create DNS records to point your domain to the IP address of your Minecraft server. You will need to create an "A" (Address) record or a "CNAME" (Canonical Name) record if A doesn't work for you.
 
@@ -282,7 +282,7 @@ sudo passwd "username" (change username)
 
 **Things that will help you manage your server correctly**
 
-1. Having a good staff members.
+1. Having a good staff members:
 
 - Create your own plan for managing the server. Use people that know what to do and want to help you.
 
@@ -293,3 +293,36 @@ You can use other names for your roles.
 
 - My team consist of 15 people that know each other and know what to do.
 
+2. Having good recruitment system for your managing team:
+
+- When we were recruiting more people for our staff we used various of questions and tried to check if the person is a right for their place.
+
+3. Promotions for administartion member:
+
+- After joining the team, the person had to wait a given period of time to make it to higher rank with more permissions.
+
+- Usually the person who shows best communication skills would have been promoted higher.
+
+- People who didn't show interest, caused trouble or didn't feel comfortable in the administrative role were demoted.
+
+4. Having clear and effective rules is fundamental to maintaining a positive and well-managed Minecraft server, ensuring fair play, and fostering a welcoming and respectful community:
+
+- For example our rules contained about 63 paragraphs for our gameplay, chat, fair play and other.
+
+- Having more advanced rules and guidelines for your staff members are really important. Create separate rules for your administration workers to use while being consistant and use them everytime they need. This type of rules will make your server look more professional and advanced.
+
+5. Having well organized Discord server can help people communicate and will make it easier to use it as third party chats.
+
+- Use your Discord server as addition to your Minecraft server.
+
+![5](https://github.com/szym10on/owning-a-server/assets/123908381/73a55d4a-31d4-43b8-ac37-dc0527658cac)
+
+- Have your discord server organized smart and simple.
+
+---
+
+## Securing your physical and Minecraft server
+
+**The most important thing - security**
+
+1. 
