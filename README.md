@@ -6,7 +6,7 @@ _[?] In this project I will grant information about how I independently built, c
 
 ## History of my server
 
-xyz
+![6](https://github.com/szym10on/owning-a-server/assets/123908381/1ab46e73-246a-4342-b4ab-2a600f33d076)
 
 ---
 
