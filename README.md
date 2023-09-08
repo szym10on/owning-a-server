@@ -1,6 +1,6 @@
 # Build, configure, manage and secure your (Minecraft) or other server
 
-_[?] In this project I will grant information about how I independently built, configured, managed and secured my physical server_
+_[?] In this project I will grant information about how I independently built, configured, managed and secured my server_
 
 ---
 
