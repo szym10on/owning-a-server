@@ -60,4 +60,9 @@ You should always round up. If your are looking for a server with 20 players, 50
 
 **This is probably the hardest part of building your network. In most cases you have to pay for a fixed IP address. To do that you have to contant your ISP (Internet Service Provider) and ask for static public IP address for your network. In my case it was about $5/month of cost for that type of IP address**
 
-1. 
+1. Set up a static IP address for your server PC (in Ubuntu Server w/o graphical view):
+
+- Check your interface name by typing 'ip a'
+
+![1](https://github.com/szym10on/owning-a-server/assets/123908381/1290fff9-c703-4f4c-bca8-0faa7bea73cc)
+Network name is in red circle. Write it down or copy the name of it.
