@@ -21,15 +21,15 @@ xyz
    * If you are looking for a budget build you need around $150 for CPU for a smooth server experience. Here are best CPUs for every price range:
 
 Intel CPUs with high clock speed:
-- i9-11900K ($400-$500)
-- i7-11700K ($300-$400)
-- i5-11600K ($200-$300)
-- i3-10100 ($100-$150)
+➤ i9-11900K ($400-$500)
+➤ i7-11700K ($300-$400)
+➤ i5-11600K ($200-$300)
+➤ i3-10100 ($100-$150)
 
 AMD CPUs with high clock speed:
-- Ryzen 9 7950X ($550-$650)
-- Ryzen 9 5900X ($350-$450)
-- Ryzen 7 5800X ($200-$300)
-- Ryzen 5 5600X ($100-$150)
+➤ Ryzen 9 7950X ($550-$650)
+➤ Ryzen 9 5900X ($350-$450)
+➤ Ryzen 7 5800X ($200-$300)
+➤ Ryzen 5 5600X ($100-$150)
 
    * CPUs in a price range of $100-$300 should work fine with servers for 5-30 players if the server is well optimized. For a larger servers you should look for a better CPU in a price range of $300+ and don't forget to include RAM, SSD, motherboard and computer power supply costs.
