@@ -74,7 +74,7 @@ The .yaml file should pop out.
 
 - Edit that file with 'sudo nano "file name"'
 
-![3](https://github.com/szym10on/owning-a-server/assets/123908381/ef550258-0ef9-467b-8ec7-0ba7e0755079)
+![3](https://github.com/szym10on/owning-a-server/assets/123908381/ef550258-0ef9-467b-8ec7-0ba7e0755079)<br>
 Edit the file as shown. Don't forget the number of spaces before every line.<br>
 Replace <interface> with your interface name like "eth0" or other name that you check before.<br>
 Set dhcp to "no". Set your desired static IP address and remember it. Set your gateway address to your router address.<br>
