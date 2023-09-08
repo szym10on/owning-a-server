@@ -66,3 +66,20 @@ You should always round up. If your are looking for a server with 20 players, 50
 
 ![1](https://github.com/szym10on/owning-a-server/assets/123908381/1290fff9-c703-4f4c-bca8-0faa7bea73cc)
 Network name is in red circle. Write it down or copy the name of it.
+
+- Edit the network configuration file by typing 'cd /etc/netplan/' than type 'ls' to list file in that directory
+
+![2](https://github.com/szym10on/owning-a-server/assets/123908381/a177b88f-37a5-4b0b-a178-b76e6afbc91e)
+The .yaml file should pop out.
+
+- Edit that file with 'sudo nano "file name"'
+
+![3](https://github.com/szym10on/owning-a-server/assets/123908381/ef550258-0ef9-467b-8ec7-0ba7e0755079)
+Edit the file as shown. Don't forget the number of spaces before every line.<br>
+Replace <interface> with your interface name like "eth0" or other name that you check before.<br>
+Set dhcp to "no". Set your desired static IP address and remember it. Set your gateway address to your router address.<br>
+If you encounter a problem you can always look for more advanced tutorial on how to set it up.
+
+- After editing network file use Ctrl + O than Enter, next press Ctrl + X to exit out of nano editor.
+
+- To set all the things that we edited use 'sudo netplan apply' and 'sudo systemctl restart network-manager' to restart your network.
