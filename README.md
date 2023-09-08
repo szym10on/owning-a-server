@@ -52,4 +52,4 @@ You should always round up. If your are looking for a server with 20 players, 50
 
 - You can buy yourself a power supply that consume little electricity and a good case that circulatates for better temperatures.
 
-- The cost of running your server 24/7 depends from your power supply, usage and electricity costs in your area. On avarage my server cost me about $5 per month.
+- The cost of running your server 24/7 depends on your power supply, usage and electricity costs in your area. On average my server cost me about $5 per month.
