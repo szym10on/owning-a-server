@@ -263,3 +263,21 @@ sudo passwd "username" (change username)
 **Domain is a human-readable web address used to identify and access resources on the internet. For example, "www.example.com" is a domain name**
 
 1. Purchase a domain:
+
+- At the beginning you will need to buy yourself a domain. First costs of domain are little (usually really cheap for the first year)
+
+- You can buy your domain name on GoDaddy, Namecheap or many other websites with domains.
+
+2. Configurate your domain panel on the website where you bought your domain.
+
+- Create DNS records to point your domain to the IP address of your Minecraft server. You will need to create an "A" (Address) record or a "CNAME" (Canonical Name) record if A doesn't work for you.
+
+- Use type A and in the value put your Ubuntu Server's IP
+
+- If there is a port needed make sure you use your port that we created earlier in a files (25565 for default Minecraft port)
+
+---
+
+## Managing your server (my own experience)
+
+1. 
