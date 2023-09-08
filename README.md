@@ -41,4 +41,4 @@ AMD CPUs with high clock speed:<br>
 * Let's talk numbers that are always diferent if you will look for them on other forums. As someone that worked with servers and I draw big attention to performance. Here are a little calculation you can do when you are looking for best RAM usage:
 
 (max players * 100) + ((plugins + scripts) * 50) + (world size in GB * 50) = RAM in MBs
-You should always round up. If your are looking for a server with 20 players, 50 scripts and a world size of 30GB you will do: (20*100)+(50*50)+(30*50)=6000MB, 6000MB = ~6GB of RAM so you should buy 8GB RAM if you are looking to be safe.
+You should always round up. If your are looking for a server with 20 players, 50 scripts and a world size of 30GB you will do: (20 * 100) + (50 * 50) + (30 * 50) = 6000MB, 6000MB = ~6GB of RAM so you should buy 8GB RAM if you are looking to be safe.
