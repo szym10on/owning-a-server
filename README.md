@@ -33,3 +33,12 @@ AMD CPUs with high clock speed:<br>
 ➤ Ryzen 5 5600X ($100-$150)
 
 * CPUs in a price range of $100-$300 should work fine with servers for 5-30 players if the server is well optimized. For a larger servers you should look for a better CPU in a price range of $300+ and don't forget to include RAM, SSD, motherboard and computer power supply costs.
+
+2. Second most important thing for our server will be RAM:
+
+* Minecraft server require a lot of RAM if you are looking to hold more than 5 players and load a lot of chunks for your server. You can lower that amount by using some kind of unloading chunks plugins that will unload unused chunks after player leaves them. That will grant you more free memory to work with.
+
+* Let's talk numbers that are always diferent if you will look for them on other forums. As someone that worked with servers and I draw big attention to performance. Here are a little calculation you can do when you are looking for best RAM usage:
+
+(max players * 100) + ((plugins + scripts) * 50) + (world size in GB * 50) = RAM in MBs
+You should always round up. If your are looking for a server with 20 players, 50 scripts and a world size of 30GB you will do: (20*100)+(50*50)+(30*50)=6000MB, 6000MB = ~6GB of RAM so you should buy 8GB RAM if you are looking to be safe.
