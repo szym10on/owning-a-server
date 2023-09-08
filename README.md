@@ -64,12 +64,12 @@ You should always round up. If your are looking for a server with 20 players, 50
 
 - Check your interface name by typing 'ip a'
 
-![1](https://github.com/szym10on/owning-a-server/assets/123908381/1290fff9-c703-4f4c-bca8-0faa7bea73cc)
+![1](https://github.com/szym10on/owning-a-server/assets/123908381/1290fff9-c703-4f4c-bca8-0faa7bea73cc)<br>
 Network name is in red circle. Write it down or copy the name of it.
 
 - Edit the network configuration file by typing 'cd /etc/netplan/' than type 'ls' to list file in that directory
 
-![2](https://github.com/szym10on/owning-a-server/assets/123908381/a177b88f-37a5-4b0b-a178-b76e6afbc91e)
+![2](https://github.com/szym10on/owning-a-server/assets/123908381/a177b88f-37a5-4b0b-a178-b76e6afbc91e)<br>
 The .yaml file should pop out.
 
 - Edit that file with 'sudo nano "file name"'
