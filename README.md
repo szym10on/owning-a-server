@@ -60,7 +60,7 @@ You should always round up. If your are looking for a server with 20 players, 50
 
 **There are a lot of operating systems for hosting server like that but I will keep it simple.**
 
-1. I always used the defualt Ubuntu Server w/o graphical UI and it worked perfectly fine all the time.
+1. I always used the defualt Ubuntu Server w/o graphical UI and it worked perfectly fine all the time:
 
 - Instalation of Ubuntu Server is really simple. If you need help just search how to install Ubuntu Server on your PC on youtube.
 
@@ -179,7 +179,7 @@ Add a port forwarding rule for the Minecraft server. Specify the following infor
 
 - Save configuration and restart your router.
 
-3. Allow Minecraft ports to be open for other people to connect to your server.
+3. Allow Minecraft ports to be open for other people to connect to your server:
 
 - Use 'sudo ufw allow 25565/tcp' and 'sudo ufw allow 25565/udp' to set your Minecraft ports to open.
 
@@ -187,7 +187,7 @@ Add a port forwarding rule for the Minecraft server. Specify the following infor
 
 - If you have any problems try turning off and on your ufw by using 'sudo ufw disable' and 'sudo ufw enable'.
 
-4. Check your public IP
+4. Check your public IP:
 
 - Search for "what is my ip" in your browser. Well done - that's your server public IP!
 
@@ -197,4 +197,69 @@ Add a port forwarding rule for the Minecraft server. Specify the following infor
 
 **Now we will allow SSH and FTP to connect to our server. This will help with managing your server from your personal PC. You will use your main PC to upload, edit and manage your Ubuntu Server**
 
-1. 
+1. Allow SSH (SSH is primarily used for remote access to systems and for securely executing commands on remote computers):
+
+- Use sudo 'ufw allow 22/tcp' to allow port 22 (SSH port) to be open.
+
+2. Allow FTP (purpose of FTP is to transfer files between computers. Users can upload (put) files from their local system to a remote server or download (get) files from a remote server to their local system):
+
+- Use sudo 'ufw allow 21/tcp' to allow port 21 (FTP port) to be open.
+
+- Use 'sudo apt-get install vsftpd' to install vsftpd package.
+
+- Edit vsftpd file with 'sudo nano /etc/vsftpd.conf'.
+
+- Change all lines to the same values:
+write_enable=YES<br>
+local_umask=022<br>
+anonymous_enable=NO
+
+- Restart the service with 'sudo systemctl restart vsftpd'.
+
+- You may want to create users for your stuff members to edit server. To allow them to use only the server directory use:
+sudo useradd -m -d "path to the directory" -s /bin/bash "username" (change path and username)<br>
+sudo passwd "username" (change username)
+
+3. How to use SSH and FTP programs:
+
+- You can download PuTTy and FileZilla to your main personal computer and use them as connection to your running Ubuntu Server.
+
+- You will use PuTTy for using commands on your Ubuntu Server. Use the IP of your Ubuntu Server and port 22 to connect.
+
+- You will use FileZilla to manage your files nad use FTP. Use the IP of your Ubuntu Server and port 21 to connect.
+
+---
+
+## Create Minecraft directory with your server and how to start the server
+
+**Use simple commands to create your server directory and start the server**
+
+1. Create directory in your home directory:
+
+- Use cd '/home' than use 'mkdir server' to create "server" directory in your home directory.
+
+- Use 'cd /home/server' to enter server directory.
+
+2. Download server engine:
+
+- As always there are a lot of speculations and what to use and what to avoid. As for me the paper engine worked the best. You can download your Minecraft server version from papermc.io and upload it to the servers folder via FTP FileZilla that we configurated earlier.
+
+3. Start the server with simple command and use screen to keep it running after logging out:
+
+- Download screen service for your Ubuntu with 'sudo apt-get install screen' to keep the server running on screen.
+
+- Use 'screen -S minecraft' - this will create screen named "minecraft"
+
+- Now start the server "inside your sreen" by using 'java -Xmx2G -Xms2G -jar "name of file".jar nogui' to start the server. Remember to change name of file to your's and change the Xmx2G and Xms2G values to the value of your RAM in your server that we discusted eariler. For example if you have 8GB of RAM and your engine is called paper.jar you will use: 'java -Xmx8G -Xms8G -jar paper.jar nogui'. That will start your server with 8GB of RAM.
+
+- After you started your server you can "detach" from the screen by pressing Ctrl + A followed with D to detach.
+
+- If you need to reattach use 'screen -r minecraft' or change the name of minecraft to your screen's name.
+
+---
+
+## Setting your own domain for your server
+
+**Domain is a human-readable web address used to identify and access resources on the internet. For example, "www.example.com" is a domain name**
+
+1. Purchase a domain:
