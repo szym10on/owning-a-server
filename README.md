@@ -315,9 +315,8 @@ You can use other names for your roles.
 
 - Use your Discord server as addition to your Minecraft server.
 
-![5](https://github.com/szym10on/owning-a-server/assets/123908381/73a55d4a-31d4-43b8-ac37-dc0527658cac)
-
-- Have your discord server organized smart and simple.
+![5](https://github.com/szym10on/owning-a-server/assets/123908381/73a55d4a-31d4-43b8-ac37-dc0527658cac)<br>
+Have your discord server organized smart and simple.
 
 ---
 
