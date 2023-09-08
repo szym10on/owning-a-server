@@ -1,6 +1,6 @@
 # Build, configure, manage and secure your (Minecraft) or other server
 
-[?] In this project I will grant information about how I independently built, configured, managed and secured my physical server
+`[?] In this project I will grant information about how I independently built, configured, managed and secured my physical server`
 
 ---
 
@@ -58,7 +58,7 @@ You should always round up. If your are looking for a server with 20 players, 50
 
 ## Selecting best OS for your server PC
 
-**There are a lot of operating systems for hosting server like that but I will keep it simple.**
+**`There are a lot of operating systems for hosting server like that but I will keep it simple`**
 
 1. I always used the defualt Ubuntu Server w/o graphical UI and it worked perfectly fine all the time:
 
@@ -140,7 +140,7 @@ ufw: Uncomplicated Firewall for managing firewall rules.<br>
 
 ## Setting up your server for public network
 
-**This is probably the hardest part of building your network. In most cases you have to pay for a fixed IP address. To do that you have to contant your ISP (Internet Service Provider) and ask for static public IP address for your network. In my case it was about $5/month of cost for that type of IP address**
+**`This is probably the hardest part of building your network. In most cases you have to pay for a fixed IP address. To do that you have to contant your ISP (Internet Service Provider) and ask for static public IP address for your network. In my case it was about $5/month of cost for that type of IP address`**
 
 1. Set up a static IP address for your server PC (in Ubuntu Server w/o graphical view):
 
@@ -195,7 +195,7 @@ Add a port forwarding rule for the Minecraft server. Specify the following infor
 
 ## Create remote control of your server via your personal PC with SSH and FTP
 
-**Now we will allow SSH and FTP to connect to our server. This will help with managing your server from your personal PC. You will use your main PC to upload, edit and manage your Ubuntu Server**
+**`Now we will allow SSH and FTP to connect to our server. This will help with managing your server from your personal PC. You will use your main PC to upload, edit and manage your Ubuntu Server`**
 
 1. Allow SSH (SSH is primarily used for remote access to systems and for securely executing commands on remote computers):
 
@@ -232,7 +232,7 @@ sudo passwd "username" (change username)
 
 ## Create Minecraft directory with your server and how to start the server
 
-**Use simple commands to create your server directory and start the server**
+**`Use simple commands to create your server directory and start the server`**
 
 1. Create directory in your home directory:
 
@@ -260,7 +260,7 @@ sudo passwd "username" (change username)
 
 ## Setting your own domain for your server
 
-**Domain is a human-readable web address used to identify and access resources on the internet. For example, "www.example.com" is a domain name**
+**`Domain is a human-readable web address used to identify and access resources on the internet. For example, "www.example.com" is a domain name`**
 
 1. Purchase a domain:
 
@@ -280,7 +280,7 @@ sudo passwd "username" (change username)
 
 ## Managing your server (my own experience)
 
-**Things that will help you manage your server correctly**
+**`Things that will help you manage your server correctly`**
 
 1. Having a good staff members:
 
@@ -322,6 +322,6 @@ Have your discord server organized smart and simple.
 
 ## Securing your physical and Minecraft server
 
-**The most important thing - security**
+**`The most important thing - security`**
 
 1. 
