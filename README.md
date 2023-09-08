@@ -179,5 +179,22 @@ Add a port forwarding rule for the Minecraft server. Specify the following infor
 
 - Save configuration and restart your router.
 
-- Check your public IP by searching 'what is my ip' in your browser. Well done - that's your server public IP!
+3. Allow Minecraft ports to be open for other people to connect to your server.
 
+- Use 'sudo ufw allow 25565/tcp' and 'sudo ufw allow 25565/udp' to set your Minecraft ports to open.
+
+- To check if you correctly allowed ports type 'sudo ufw status'. This should show allowed ports on your server.
+
+- If you have any problems try turning off and on your ufw by using 'sudo ufw disable' and 'sudo ufw enable'.
+
+4. Check your public IP
+
+- Search for "what is my ip" in your browser. Well done - that's your server public IP!
+
+---
+
+## Create remote control of your server via your personal PC with SSH and FTP
+
+**Now we will allow SSH and FTP to connect to our server. This will help with managing your server from your personal PC. You will use your main PC to upload, edit and manage your Ubuntu Server**
+
+1. 
