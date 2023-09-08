@@ -1,7 +1,8 @@
-# Build, configure, manage and secure your (Minecraft) or other server
+# Build, configure, manage and secure your server
 
 _[?] In this project I will grant information about how I independently built, configured, managed and secured my server_
 
+_The guide covers the Minecraft game server, but it may be useful in other cases when running a server_
 ---
 
 ## Timeline of my own Minecraft server over the years
