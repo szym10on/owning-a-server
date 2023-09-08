@@ -56,6 +56,88 @@ You should always round up. If your are looking for a server with 20 players, 50
 
 ---
 
+## Selecting best OS for your server PC
+
+**There are a lot of operating systems for hosting server like that but I will keep it simple.**
+
+1. I always used the defualt Ubuntu Server w/o graphical UI and it worked perfectly fine all the time.
+
+- Instalation of Ubuntu Server is really simple. If you need help just search how to install Ubuntu Server on your PC on youtube.
+
+2. Important commands for your server and how to use Ubuntu:
+
+➤ File System Commands:
+ls: List files and directories in the current directory.<br>
+cd: Change the current directory.<br>
+pwd: Print the current working directory.<br>
+touch: Create an empty file.<br>
+mkdir: Create a new directory.<br>
+cp: Copy files or directories.<br>
+mv: Move or rename files or directories.<br>
+rm: Remove files or directories.<br>
+cat: Display the contents of a file.<br>
+more or less: Display the contents of a file one screen at a time.<br>
+nano or vim: Text editors for editing files in the terminal.<br>
+
+➤ System Information:<br>
+uname: Display system information.<br>
+top or htop: Monitor system resource usage.<br>
+df: Display disk space usage.<br>
+free: Display system memory usage.<br>
+lscpu: Display CPU information.<br>
+
+➤ User and Permissions:<br>
+whoami: Show the current user.<br>
+passwd: Change user password.<br>
+sudo: Execute commands with superuser (administrative) privileges.<br>
+chown: Change file or directory ownership.<br>
+chmod: Change file or directory permissions.<br>
+
+➤ Package Management:<br>
+apt-get or apt: Package manager for installing, updating, and managing software packages.<br>
+dpkg: Package manager for handling individual package files.<br>
+snap: Package manager for installing snaps (containerized applications).<br>
+
+➤ Networking:<br>
+ifconfig or ip: Display network interface information.<br>
+ping: Send ICMP echo requests to test network connectivity.<br>
+ssh: Securely connect to remote servers.<br>
+wget or curl: Download files from the internet.<br>
+netstat or ss: Display network statistics.<br>
+traceroute: Trace the route packets take to reach a host.<br>
+
+➤ Process Management:<br>
+ps: List running processes.<br>
+kill or killall: Terminate processes.<br>
+bg and fg: Manage background and foreground processes.<br>
+
+➤ Archiving and Compression:<br>
+tar: Create and extract tar archives.<br>
+gzip, bzip2, xz: Compress and decompress files.<br>
+
+➤ File Searching and Manipulation:<br>
+find: Search for files and directories.<br>
+grep: Search for patterns in text files.<br>
+locate: Quickly find files based on a database.<br>
+
+➤ File Transfer:<br>
+scp: Securely copy files between hosts.<br>
+rsync: Synchronize files and directories between systems.<br>
+
+➤ Text Processing:<br>
+sed: Stream editor for text manipulation.<br>
+awk: Text processing tool for data extraction and reporting.<br>
+
+➤ Shell Scripting:<br>
+bash or other shells: Run shell scripts and command-line automation.<br>
+
+➤ System Administration:<br>
+systemctl: Control and manage systemd services.<br>
+journalctl: View system logs.<br>
+ufw: Uncomplicated Firewall for managing firewall rules.<br>
+
+---
+
 ## Setting up your server for public network
 
 **This is probably the hardest part of building your network. In most cases you have to pay for a fixed IP address. To do that you have to contant your ISP (Internet Service Provider) and ask for static public IP address for your network. In my case it was about $5/month of cost for that type of IP address**
@@ -83,3 +165,19 @@ If you encounter a problem you can always look for more advanced tutorial on how
 - After editing network file use Ctrl + O than Enter, next press Ctrl + X to exit out of nano editor.
 
 - To set all the things that we edited use 'sudo netplan apply' and 'sudo systemctl restart network-manager' to restart your network.
+
+2. Set up port forwarding in your network router:
+
+- Log in to your router. Common router IP addresses include 192.168.0.1 or 192.168.1.1. Consult your router's manual or documentation for the correct IP address and login credentials
+
+- Locate the port forwarding section in your router settings. This may be called "Port Forwarding," "Port Mapping," or something similar, depending on your router's brand and model.<br>
+Add a port forwarding rule for the Minecraft server. Specify the following information:<br>
+➤ External Port: The port number you want to use for incoming connections (e.g., 25565 for default Minecraft).<br>
+➤ Internal IP Address: The static internal IP address of your Minecraft server that you set up earlier in .yaml file of your server<br>
+➤ Internal Port: The same port number as the external port (e.g., 25565).<br>
+➤ Protocol: Select "TCP".
+
+- Save configuration and restart your router.
+
+- Check your public IP by searching 'what is my ip' in your browser. Well done - that's your server public IP!
+
