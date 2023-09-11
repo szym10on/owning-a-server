@@ -326,4 +326,4 @@ Have your discord server organized smart and simple.
 
 **`The most important thing - security`**
 
-1. sSSS
+1. x
