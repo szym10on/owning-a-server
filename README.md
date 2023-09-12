@@ -346,7 +346,7 @@ Have your discord server organized smart and simple.
 ➤ ExploitFixer (prevent from using exploits and more)<br>
 
 - Use security scripts such as mine:<br>
-➤ AntyBot (easy self-controlled script for stopping bot access)<br>
+➤ AntiBot (easy self-controlled script for stopping bot access)<br>
 ➤ Verification (verifies player at frist join and prevent bots from connecting)<br>
 ➤ IPChange (displays information for staff members if someone's IP changes)<br>
 ➤ StaffMemberVerification (set IP connection only for your staff members so that only they can join on their accounts)<br>
