@@ -326,4 +326,28 @@ Have your discord server organized smart and simple.
 
 **`The most important thing - security`**
 
-1. xx
+1. Server related security:
+
+- If there is a possibility of using other network then your main network at home your should use it.
+
+- Keep up with updates for operating system as it can prevent from vulnerabilities.
+
+- Keep your password hard using symbols, numbers and capital letters. Try changing it as often as you can.
+
+- Make backup files every 24 hours or less. You can use tools for it.
+
+- Implement least privilages for user if you are allowing other staff members to use SSH or FTP of your server.
+
+2. In game related security:
+
+- Use security plugins such as:<br>
+➤ AuthMe (log in system if you are using non-premium system)<br>
+➤ BotSentry (protects server from botting)<br>
+➤ ExploitFixer (prevent from using exploits and more)<br>
+
+- Use security scripts such as mine:<br>
+➤ AntyBot (easy self-controlled script for stopping bot access)<br>
+➤ Verification (verifies player at frist join and prevent bots from connecting)<br>
+➤ IPChange (displays information for staff members if someone's IP changes)<br>
+➤ StaffMemberVerification (set IP connection only for your staff members so that only they can join on their accounts)<br>
+All of these scripts are mine. You can check them there: [security-scripts](https://github.com/szym10on/security-scripts)
