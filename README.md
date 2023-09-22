@@ -328,6 +328,16 @@ Have your discord server organized smart and simple.
 
 <b>1. Server related security:</b>
 
+- Use SSH Keys Authentication.
+
+- Set up easy email alerts for SSH logins for your Ubuntu Server.
+
+- Set up Suricata or other type of IDS for your Server.
+
+- Use file auditing to see changes done to files.
+
+- Check ports and services that are open to be sure your server isn't vulnerable.
+
 - If there is a possibility of using other network then your main network at home your should use it.
 
 - Keep up with updates for operating system as it can prevent from vulnerabilities.
